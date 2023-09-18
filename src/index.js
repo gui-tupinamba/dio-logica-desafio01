@@ -18,21 +18,21 @@ let nivelHeroi = "" //Variável em branco para o nível do herói.
 // Estrutura de decisões:
 if (xpHeroi <= 1000) {   //Feita a verificação do poder do herói se é abaixo de 1.000.
     nivelHeroi = "Ferro"
-} else if (xpHeroi >= 1001 && xpHeroi <= 2000) {  //Feita a verificação do poder do herói se é entre 1.001 e 2.000.
+} else if (xpHeroi >= 1001 && xpHeroi <= 2000) {  //Feita a verificação do XP do herói se é entre 1.001 e 2.000.
     nivelHeroi = "Bronze"
-} else if (xpHeroi >= 2001 && xpHeroi <= 5000) {  //Feita a verificação do poder do herói se é entre 2.001 e 5.000.
+} else if (xpHeroi >= 2001 && xpHeroi <= 5000) {  //Feita a verificação do XP do herói se é entre 2.001 e 5.000.
     nivelHeroi = "Prata"
-} else if (xpHeroi >= 5001 && xpHeroi <= 6000) {  //Feita a verificação do poder do herói se é entre 5.001 e 6.000.
+} else if (xpHeroi >= 5001 && xpHeroi <= 6000) {  //Feita a verificação do XP do herói se é entre 5.001 e 6.000.
     nivelHeroi = "Ouro"
-} else if (xpHeroi >= 6001 && xpHeroi <= 7000) {  //Feita a verificação do poder do herói se é entre 6.001 e 7.000.
+} else if (xpHeroi >= 6001 && xpHeroi <= 7000) {  //Feita a verificação do XP do herói se é entre 6.001 e 7.000.
     nivelHeroi = "Platina"
-} else if (xpHeroi >= 7001 && xpHeroi <= 8000) {  //Feita a verificação do poder do herói se é entre 7.001 e 8.000.
+} else if (xpHeroi >= 7001 && xpHeroi <= 8000) {  //Feita a verificação do XP do herói se é entre 7.001 e 8.000.
     nivelHeroi = "Diamante" //Adicionei esse nível para ficar mais bonito...
-} else if (xpHeroi >= 8001 && xpHeroi <= 9000) {  //Feita a verificação do poder do herói se é entre 8.001 e 9.000.
+} else if (xpHeroi >= 8001 && xpHeroi <= 9000) {  //Feita a verificação do XP do herói se é entre 8.001 e 9.000.
     nivelHeroi = "Ascendente"
-} else if (xpHeroi >= 9001 && xpHeroi <= 10000) { //Feita a verificação do poder do herói se é entre 9.001 e 10.000.
+} else if (xpHeroi >= 9001 && xpHeroi <= 10000) { //Feita a verificação do XP do herói se é entre 9.001 e 10.000.
     nivelHeroi = "Imortal"
-} else { //Aqui para a verificação restante, aonde o poder não foi verdadeiro em nenhuma das condições anteriores. Pela lógica aqui o herói terá mais de 10.000 de poder.
+} else { //Aqui para a verificação restante, aonde o poder não foi verdadeiro em nenhuma das condições anteriores. Pela lógica aqui o herói terá mais de 10.000 de XP.
     nivelHeroi = "Radiante"
 }
 
